@@ -16,8 +16,6 @@ export default class Main extends Component {
     });
 
     this.props.history.push(`/box/${response.data._id}`);
-
-    console.log(response.data);
   };
 
   handleInputChange = (e) => {
